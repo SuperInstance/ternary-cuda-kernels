@@ -82,7 +82,7 @@ int main() {
 
     printf("%-8s %-12s %-12s %-12s %-12s\n",
            "Size", "FP32(ms)", "Ternary(ms)", "Speedup", "Mem Saved");
-    printf("%s\n", std::string(60, '-').c_str());
+    printf("%s\n", "------------------------------------------------------------");
 
     for (int s = 0; s < n_sizes; s++) {
         int n = sizes[s];
