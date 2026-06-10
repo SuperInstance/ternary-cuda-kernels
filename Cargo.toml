@@ -1,4 +1,6 @@
 [package]
+description = "ternary-cuda-kernels - SuperInstance ecosystem crate"
+repository = "https://github.com/SuperInstance/ternary-cuda-kernels"
 name = "ternary-cuda-kernels"
 version = "0.1.0"
 edition = "2024"
